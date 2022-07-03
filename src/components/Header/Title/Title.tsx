@@ -1,4 +1,5 @@
 import style from './title.module.scss'
+import Button from './Button/Button'
 
 function Title() {
   return (
@@ -7,6 +8,7 @@ function Title() {
             <span className={style.outdoors}>Outdoors</span>
             <span className={style.comment}>is where life happens</span>
         </h1>
+        <Button/>
     </div>
   )
 }
